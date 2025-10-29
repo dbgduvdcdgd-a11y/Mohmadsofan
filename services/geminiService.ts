@@ -5,7 +5,7 @@ if (!API_KEY) {
     throw new Error("API_KEY environment variable is not set");
 }
 
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+const ai = new GoogleGenAI({ apiKey: API_KEY AIzaSyDm3Z8S93vAy_8BccA5OYN88KzwEnSB6qI });
 const model = 'gemini-2.5-flash-image';
 
 export async function generateImage(prompt: string): Promise<string> {
